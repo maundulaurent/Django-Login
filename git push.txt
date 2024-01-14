@@ -1,0 +1,76 @@
+HOW TO ADD PROJECT INTO GITHUB VIA GIT.
+
+
+1.Uploading your project to GitHub using Git involves a series of steps. 
+
+Create a GitHub Account
+
+2.Install Git:
+If you don't have Git installed on your machine, download and install it from git-scm.com.
+
+3.Set Up Git:
+Open a terminal (Command Prompt on Windows, Terminal on macOS/Linux) and configure your name and email in Git. Replace "Your Name" and "your.email@example.com" with your actual name and email.
+
+bash
+Copy code
+-------------------------------------------------------------------------------
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+-------------------------------------------------------------------------------
+Create a New Repository on GitHub:
+
+Log in to your GitHub account.
+Click on the "+" icon in the top right corner and select "New repository."
+Name your repository, add a description, and choose other settings.
+Click "Create repository."
+Initialize a Git Repository Locally:
+Navigate to your project folder in the terminal and run:
+
+bash
+-----------------------------------------------------------------------------------
+git init
+-----------------------------------------------------------------------------------
+Add Files to the Repository:
+Add the files you want to include in the repository. Use the following commands to add all files:
+
+bash
+-----------------------------------------------------------------------------------
+git add .
+-----------------------------------------------------------------------------------
+Or, to add specific files:
+
+bash
+Copy code
+git add file1 file2
+Commit Changes:
+Commit the changes with a meaningful message:
+
+bash
+-----------------------------------------------------------------------------------
+git commit -m "Initial commit"
+-----------------------------------------------------------------------------------
+
+Connect Local Repository to GitHub:
+Copy the repository URL from GitHub. On your local machine, run:
+
+bash
+-----------------------------------------------------------------------------------
+git remote add origin https://github.com/your-username/your-repository.git
+-----------------------------------------------------------------------------------
+
+Replace your-username and your-repository with your GitHub username and repository name.
+
+Push to GitHub:
+Push your changes to GitHub:
+
+bash
+-----------------------------------------------------------------------------------
+git push -u origin master
+-----------------------------------------------------------------------------------
+
+If you are on a different branch, replace master with your branch name.
+
+Authenticate:
+Git may prompt you to enter your GitHub credentials.
+
+That's it! Your project is now on GitHub. You can visit your repository on the GitHub website to see your files. Keep in mind that this is a basic guide, and there are more advanced features and workflows you can explore as you become more familiar with Git and GitHub.
