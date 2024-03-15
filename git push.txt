@@ -74,3 +74,14 @@ Authenticate:
 Git may prompt you to enter your GitHub credentials.
 
 That's it! Your project is now on GitHub. You can visit your repository on the GitHub website to see your files. Keep in mind that this is a basic guide, and there are more advanced features and workflows you can explore as you become more familiar with Git and GitHub.
+
+
+
+
+
+
+
+
+Personal Access Token
+
+you_can_delete_this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
